@@ -1,0 +1,41 @@
+{
+    "APU": {
+        "apu_max_queued_frames": 8,
+        "use_dedicated_xma_thread": false,
+        "use_new_decoder": true
+    },
+    "CPU": {},
+    "Config": {},
+    "Content": {},
+    "D3D12": {
+        "d3d12_readback_resolve": true
+    },
+    "Display": {
+        "postprocess_ffx_cas_additional_sharpness": 1.000,
+        "postprocess_ffx_fsr_sharpness_reduction": 0.200,
+        "postprocess_scaling_and_sharpening": "fsr"
+    },
+    "GPU": {
+        "framerate_limit": 120,
+        "gpu_allow_invalid_fetch_constants": true,
+        "vsync": false
+    },
+    "General": {},
+    "HACKS": {},
+    "HID": {},
+    "Kernel": {},
+    "Logging": {},
+    "Memory": {},
+    "Profiles": {},
+    "SDL": {},
+    "Storage": {
+        "mount_cache": true,
+        "mount_scratch": true 
+    },
+    "UI": {},
+    "Video": {},
+    "Vulkan": {},
+    "Win32": {},
+    "XConfig": {},
+    "x64": {}
+}
