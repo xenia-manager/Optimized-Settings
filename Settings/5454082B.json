@@ -1,0 +1,16 @@
+{
+    "APU": {
+        "apu_max_queued_frames": 8
+    },
+    "Display": {
+        "postprocess_antialiasing": "fxaa_extreme",
+        "postprocess_ffx_cas_additional_sharpness": 1.000,
+        "postprocess_ffx_fsr_sharpness_reduction": 0.200,
+        "postprocess_scaling_and_sharpening": "fsr"
+    },
+    "GPU": {
+        "framerate_limit": 120,
+        "query_occlusion_fake_sample_count": -1,
+        "vsync": false
+    }
+}
