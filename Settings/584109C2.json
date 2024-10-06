@@ -1,0 +1,12 @@
+{
+    "Config": {
+        "license_mask": 1
+    },
+    "GPU": {
+        "framerate_limit": 60,
+        "query_occlusion_fake_sample_count": -1
+    },
+    "Video": {
+        "internal_display_resolution": 16
+    }
+}
