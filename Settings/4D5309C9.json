@@ -5,7 +5,7 @@
         "use_new_decoder": true
     },
     "D3D12": {
-        "d3d12_readback_resolve": true
+        "d3d12_readback_resolve": false
     },
     "Display": {
         "postprocess_ffx_cas_additional_sharpness": 1.000,
