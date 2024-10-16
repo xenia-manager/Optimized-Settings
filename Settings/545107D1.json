@@ -5,7 +5,6 @@
     "D3D12": {
         "d3d12_submit_on_primary_buffer_end": false
     },
-{
     "Memory": {
         "protect_zero": false
     }

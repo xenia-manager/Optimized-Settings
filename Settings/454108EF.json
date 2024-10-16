@@ -1,9 +1,7 @@
 {
-    "D3D12": {
-        "render_target_path_d3d12": "rov"
-    },
     "GPU": {
+        "clear_memory_page_state": true,
         "framerate_limit": 120,
-        "clear_memory_page_state": true
+        "render_target_path_d3d12": "rov"
     }
 }

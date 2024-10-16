@@ -5,7 +5,6 @@
     "GPU": {
         "query_occlusion_fake_sample_count": -1
     },
-{
     "Memory": {
         "protect_zero": false
     }

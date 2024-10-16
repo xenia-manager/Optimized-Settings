@@ -4,14 +4,14 @@
         "use_dedicated_xma_thread": false
     },
     "D3D12": {
-        "d3d12_readback_resolve": true,
-        "render_target_path_d3d12": "rov"
+        "d3d12_readback_resolve": true
     },
     "GPU": {
         "vsync": false,
         "framerate_limit": 0,
         "gpu_allow_invalid_fetch_constants": true,
-        "query_occlusion_fake_sample_count": -1
+        "query_occlusion_fake_sample_count": -1,
+        "render_target_path_d3d12": "rov"
     },
     "Storage": {
         "mount_cache": true
