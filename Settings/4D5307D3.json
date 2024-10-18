@@ -4,7 +4,7 @@
         "use_dedicated_xma_thread": false
     },
     "GPU": {
-        "vsync": false,
-        "framerate_limit": 0
+        "vsync": true,
+        "framerate_limit": 120
     }
 }
