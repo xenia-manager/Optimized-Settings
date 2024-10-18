@@ -1,0 +1,10 @@
+{
+    "GPU": {
+        "vsync": false,
+        "framerate_limit": 0,
+        "query_occlusion_fake_sample_count": -1
+    },
+    "Storage": {
+        "mount_cache": true
+    }
+}

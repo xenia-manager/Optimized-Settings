@@ -1,0 +1,9 @@
+{
+    "GPU": {
+        "vsync": false,
+        "framerate_limit": 0
+    },
+    "Storage": {
+        "mount_cache": true
+    }
+}
