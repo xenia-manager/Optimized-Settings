@@ -1,8 +1,4 @@
-# Optimized Settings
-
-This repo stores all of the optimized settings for the games on Xenia (Specifically Xenia Canary)
-
-# Currently supported games
+# List of games with optimized settings
 
 <table align="center">
   <tr>
