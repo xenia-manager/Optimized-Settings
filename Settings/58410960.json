@@ -1,12 +1,12 @@
 {
+    "CPU": {
+        "break_on_unimplemented_instructions": false
+    },
     "D3D12": {
         "d3d12_readback_resolve": true
     },
     "GPU": {
         "query_occlusion_fake_sample_count": -1
-    },
-    "CPU": {
-        "break_on_unimplemented_instructions": false
     },
     "Kernel": {
         "cl": "-dvd -game portal"
