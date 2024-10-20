@@ -1,0 +1,9 @@
+{
+    "GPU": {
+        "draw_resolution_scale_x": 2,
+        "draw_resolution_scale_y": 2
+    },
+    "Video": {
+        "internal_display_resolution": 16
+    }
+}

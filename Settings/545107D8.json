@@ -1,0 +1,12 @@
+{
+    "GPU": {
+        "vsync": false,
+        "framerate_limit": 0
+    },
+    "CPU": {
+        "disassemble_functions": true
+    },
+    "Memory": {
+        "protect_zero": false
+    }
+}
