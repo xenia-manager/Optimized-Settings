@@ -6,6 +6,6 @@
         "d3d12_readback_resolve": true
     },
     "Kernel": {
-        "+mat_motion_blur_percent_of_screen_max 0 +fps_max 120"
+        "cl": "+mat_motion_blur_percent_of_screen_max 0 +fps_max 120"
     }
 }
