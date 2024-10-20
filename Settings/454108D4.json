@@ -1,9 +1,9 @@
 {
-    "D3D12": {
-        "d3d12_readback_resolve": true
-    },
     "CPU": {
         "break_on_unimplemented_instructions": false
+    },
+    "D3D12": {
+        "d3d12_readback_resolve": true
     },
     "Kernel": {
         "+mat_motion_blur_percent_of_screen_max 0 +fps_max 120"
