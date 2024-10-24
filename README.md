@@ -8,10 +8,64 @@
     <th>Last update</th>
   </tr>
   <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=5451083B"/></td>
+    <td><center><strong>5451083B</strong></center></td>
+    <td><center><strong>50 Cent: Blood on the Sand</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=454108EF"/></td>
     <td><center><strong>454108EF</strong></center></td>
     <td><center><strong>Bulletstorm</strong></center></td>
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/c1e6feba41650683b1a81c150f395ac2545e5d2b">17/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=415607E1"/></td>
+    <td><center><strong>415607E1</strong></center></td>
+    <td><center><strong>Call of Duty 3</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=41560914"/></td>
+    <td><center><strong>41560914</strong></center></td>
+    <td><center><strong>Call of Duty: Advanced Warfare</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=5841125A"/></td>
+    <td><center><strong>5841125A</strong></center></td>
+    <td><center><strong>Counter Strike: Global Offensive</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5307DC"/></td>
+    <td><center><strong>4D5307DC</strong></center></td>
+    <td><center><strong>Crackdown</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5308BC"/></td>
+    <td><center><strong>4D5308BC</strong></center></td>
+    <td><center><strong>Crackdown 2</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=544307D1"/></td>
+    <td><center><strong>544307D1</strong></center></td>
+    <td><center><strong>Dead or Alive 4</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4E4D0826"/></td>
+    <td><center><strong>4E4D0826</strong></center></td>
+    <td><center><strong>Dragon Ball: Raging Blast 2</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=424107DC"/></td>
+    <td><center><strong>424107DC</strong></center></td>
+    <td><center><strong>Dragon Ball Z Burst Limit</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=5553087E"/></td>
@@ -54,6 +108,12 @@
     <td><center><strong>4D530AA4</strong></center></td>
     <td><center><strong>Forza Horizon 2</strong></center></td>
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=545107D8"/></td>
+    <td><center><strong>545107D8</strong></center></td>
+    <td><center><strong>Frontlines: Fuel of War</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5307D5"/></td>
@@ -104,6 +164,30 @@
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
   </tr>
   <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=45410830"/></td>
+    <td><center><strong>45410830</strong></center></td>
+    <td><center><strong>Left 4 Dead</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=454108D4"/></td>
+    <td><center><strong>454108D4</strong></center></td>
+    <td><center><strong>Left 4 Dead 2</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4B4E080A"/></td>
+    <td><center><strong>4B4E080A</strong></center></td>
+    <td><center><strong>Metal Gear Rising: Revengeance</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4B4E0840"/></td>
+    <td><center><strong>4B4E0840</strong></center></td>
+    <td><center><strong>Metal Gear Solid HD Collection</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=545407F8"/></td>
     <td><center><strong>545407F8</strong></center></td>
     <td><center><strong>Midnight Club: Los Angeles</strong></center></td>
@@ -116,6 +200,12 @@
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
   </tr>
   <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=454107D9"/></td>
+    <td><center><strong>454107D9</strong></center></td>
+    <td><center><strong>Need for Speed Most Wanted (2005)</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=584109C2"/></td>
     <td><center><strong>584109C2</strong></center></td>
     <td><center><strong>Perfect Dark (XBLA)</strong></center></td>
@@ -126,6 +216,12 @@
     <td><center><strong>4D5307D3</strong></center></td>
     <td><center><strong>Perfect Dark Zero</strong></center></td>
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=58410960"/></td>
+    <td><center><strong>58410960</strong></center></td>
+    <td><center><strong>Portal: Still Alive</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5307D1"/></td>
@@ -176,10 +272,22 @@
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
   </tr>
   <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4E4D07FC"/></td>
+    <td><center><strong>4E4D07FC</strong></center></td>
+    <td><center><strong>Tekken 6</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+  </tr>
+  <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=545407EE"/></td>
     <td><center><strong>545407EE</strong></center></td>
     <td><center><strong>The Darkness</strong></center></td>
     <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
+  </tr>
+  <tr>
+    <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4541080F"/></td>
+    <td><center><strong>4541080F</strong></center></td>
+    <td><center><strong>The Orange Box</strong></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=555307F0"/></td>
