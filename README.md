@@ -1,4 +1,4 @@
-# List of games with optimized settings
+# List of games with optimized settings (36 games currently)
 
 <table align="center">
   <tr>
