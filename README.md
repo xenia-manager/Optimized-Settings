@@ -1,4 +1,4 @@
-# List of games with optimized settings
+# List of games with optimized settings (50 games currently)
 
 <table align="center">
   <tr>
@@ -209,7 +209,7 @@
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=584109C2"/></td>
     <td><center><strong>584109C2</strong></center></td>
     <td><center><strong>Perfect Dark (XBLA)</strong></center></td>
-    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/d384e89a3e912f9a3170af7fb995d19f2936f9ae">06/10/2024</a></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/1e25881b6fc53d64cc6ee328a83dc9ef83a2437c">26/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5307D3"/></td>
