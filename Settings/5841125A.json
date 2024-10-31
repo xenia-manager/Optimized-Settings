@@ -4,7 +4,6 @@
     },
     "GPU": {
         "clear_memory_page_state": true,
-        "vsync": false,
-        "framerate_limit": 0,
+        "query_occlusion_fake_sample_count": 0
     }
 }
