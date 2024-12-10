@@ -35,7 +35,7 @@
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=5841125A"/></td>
     <td><center><strong>5841125A</strong></center></td>
     <td><center><strong>Counter Strike: Global Offensive</strong></center></td>
-    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/12da9a2728007230ccfe157feacbdba0fa196609">20/10/2024</a></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/57c6f99817229d2238dbdf77c78010b5b90ec4bd">31/10/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D5307DC"/></td>
