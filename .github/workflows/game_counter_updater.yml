@@ -18,9 +18,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: pip install re
-
       - name: Update README Counter
         run: python Scripts/game_counter.py
 
