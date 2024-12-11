@@ -1,4 +1,4 @@
-# List of games with optimized settings (<span id="counter">50</span> games currently)
+# List of games with optimized settings (<span id="counter">86</span> games currently)
 
 <table id="games-table" align="center">
   <tr>
