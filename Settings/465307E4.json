@@ -1,0 +1,5 @@
+{
+  "use_new_decoder": true,
+  "use_dedicated_xma_thread": false,
+  "d3d12_readback_resolve": true
+}

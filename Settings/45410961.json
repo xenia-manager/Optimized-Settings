@@ -1,0 +1,4 @@
+{
+  "d3d12_readback_memexport": true,
+  "d3d12_readback_resolve": true
+}

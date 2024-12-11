@@ -1,0 +1,5 @@
+{
+  "d3d12_readback_resolve": true,
+  "query_occlusion_fake_sample_count": 0,
+  "cl": "-novid"
+}

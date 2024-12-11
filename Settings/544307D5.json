@@ -1,0 +1,7 @@
+{
+  "use_dedicated_xma_thread": false,
+  "use_new_decoder": true,
+  "protect_zero": false,
+  "texture_cache_memory_limit_soft": 192,
+  "clear_memory_page_state": true
+}

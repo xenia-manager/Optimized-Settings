@@ -1,0 +1,6 @@
+{
+  "framerate_limit": 120,
+  "render_target_path_d3d12": "rov",
+  "use_dedicated_xma_thread": false,
+  "use_new_decoder": true
+}
