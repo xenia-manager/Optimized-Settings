@@ -1,4 +1,6 @@
 {
-  "vsync": false,
-  "framerate_limit": 0
+  "GPU": {
+    "vsync": false,
+    "framerate_limit": 0
+  }
 }

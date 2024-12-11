@@ -1,3 +1,5 @@
 {
-  "framerate_limit": 120
+  "GPU": {
+    "framerate_limit": 120
+  }
 }

@@ -1,5 +1,11 @@
 {
-  "d3d12_readback_resolve": true,
-  "query_occlusion_fake_sample_count": 0,
-  "cl": "-novid"
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  },
+  "GPU": {
+    "query_occlusion_fake_sample_count": 0
+  },
+  "Kernel": {
+    "cl": "-novid"
+  }
 }

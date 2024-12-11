@@ -1,6 +1,10 @@
 {
-  "framerate_limit": 120,
-  "use_dedicated_xma_thread": false,
-  "use_new_decoder": true,
-  "clear_memory_page_state": true
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "framerate_limit": 120
+  }
 }

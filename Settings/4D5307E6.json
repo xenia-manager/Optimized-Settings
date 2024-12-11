@@ -1,3 +1,5 @@
 {
-  "protect_zero": false
+  "Memory": {
+    "protect_zero": false
+  }
 }

@@ -1,5 +1,9 @@
 {
-  "use_dedicated_xma_thread": false,
-  "use_new_decoder": true,
-  "protect_zero": false
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "Kernel": {
+    "protect_zero": false
+  }
 }

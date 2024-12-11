@@ -1,6 +1,10 @@
 {
-  "framerate_limit": 120,
-  "clear_memory_page_state": true,
-  "scribble_heap": true,
-  "query_occlusion_fake_sample_count": 0
+  "GPU": {
+    "clear_memory_page_state": true,
+    "framerate_limit": 120,
+    "query_occlusion_fake_sample_count": 0
+  },
+  "Memory": {
+    "scribble_heap": true
+  }
 }

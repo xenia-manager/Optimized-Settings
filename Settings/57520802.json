@@ -1,4 +1,6 @@
 {
-  "use_dedicated_xma_thread": false,
-  "use_new_decoder": true
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  }
 }
