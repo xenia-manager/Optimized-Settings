@@ -1,0 +1,5 @@
+{
+  "Kernel": {
+    "cl": "r_vsync 0"
+  }
+}

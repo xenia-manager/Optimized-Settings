@@ -1,0 +1,9 @@
+{
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  }
+}
