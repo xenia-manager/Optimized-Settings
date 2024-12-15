@@ -1,28 +1,31 @@
 name: Update README Game Counter
-
 on:
   push:
     paths:
       - README.md  # Trigger when README.md is modified
   workflow_dispatch: # Allows manual trigger
-
 jobs:
   update-counter:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-
+      
       - name: Update README Counter
         run: python Scripts/game_counter.py
-
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet README.md || echo "changes=true" >> $GITHUB_OUTPUT
+      
       - name: Commit and Push Changes
-        if: success()
+        if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
