@@ -245,7 +245,7 @@
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D530877"/></td>
     <td><center><strong>4D530877</strong></center></td>
     <td><center><strong>Halo 3: ODST</strong></center></td>
-    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/bb9f0c3a51ac63b4602ce10ed3fac79530d2912f">19/10/2024</a></center></td>
+    <td><center><a href="https://github.com/xenia-manager/Optimized-Settings/commit/d1e14ae77715d3850d957b4a6fbb6ca90b6de1c8">15/12/2024</a></center></td>
   </tr>
   <tr>
     <td><img src="http://www.xboxunity.net/Resources/Lib/Icon.php?tid=4D530919"/></td>
