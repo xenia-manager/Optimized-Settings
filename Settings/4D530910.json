@@ -11,7 +11,6 @@
         "framerate_limit": 0,
         "gpu_allow_invalid_fetch_constants": true,
         "query_occlusion_fake_sample_count": -1,
-        "render_target_path_d3d12": "rov"
     },
     "Storage": {
         "mount_cache": true

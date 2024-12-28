@@ -3,10 +3,10 @@
         "use_new_decoder": true,
         "use_dedicated_xma_thread": false
     },
-    "GPU": {
-        "query_occlusion_fake_sample_count": -1
+    "D3D12": {
+        "d3d12_readback_resolve": true
     },
-    "General": {
-        "controller_hotkeys": true
+    "Memory": {
+        "protect_zero": false
     }
 }

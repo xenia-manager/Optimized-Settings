@@ -10,7 +10,7 @@
         "vsync": false,
         "framerate_limit": 0,
         "gpu_allow_invalid_fetch_constants": true,
-        "query_occlusion_fake_sample_count": -1
+        "query_occlusion_fake_sample_count": -1,
     },
     "Storage": {
         "mount_cache": true

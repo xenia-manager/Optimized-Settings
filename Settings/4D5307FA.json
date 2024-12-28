@@ -1,0 +1,10 @@
+{
+    "APU": {
+        "apu_max_queued_frames": 8
+    },
+    "GPU": {
+        "render_target_path_d3d12": "rov",
+        "draw_resolution_scale_x": 2,
+        "draw_resolution_scale_y": 2
+    }
+}

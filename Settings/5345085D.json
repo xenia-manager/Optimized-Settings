@@ -1,0 +1,7 @@
+{
+    "GPU": {
+        "vsync": false,
+        "framerate_limit": 0,
+        "render_target_path_d3d12": "rov"
+    }
+}
