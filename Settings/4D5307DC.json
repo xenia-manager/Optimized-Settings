@@ -4,9 +4,9 @@
         "use_dedicated_xma_thread": false
     },
     "D3D12": {
-        "d3d12_readback_resolve": true,
+        "d3d12_readback_resolve": true
     },
     "General": {
-        "controller_hotkeys": true,
+        "controller_hotkeys": true
     }
 }
