@@ -1,15 +1,15 @@
 {
-    "APU": {
-        "use_new_decoder": true,
-        "use_dedicated_xma_thread": false
-    },
-    "GPU": {
-        "clear_memory_page_state": true,
-        "vsync": false,
-        "framerate_limit": 0,
-        "query_occlusion_fake_sample_count": -1
-    },
-    "Memory": {
-        "protect_zero": false
-    }
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "framerate_limit": 0,
+    "query_occlusion_fake_sample_count": -1,
+    "vsync": false
+  },
+  "Memory": {
+    "protect_zero": false
+  }
 }

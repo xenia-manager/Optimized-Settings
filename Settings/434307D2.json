@@ -1,10 +1,10 @@
 {
-    "APU": {
-        "use_new_decoder": true,
-        "use_dedicated_xma_thread": false
-    },
-    "GPU": {
-        "clear_memory_page_state": true,
-        "render_target_path_d3d12": "rov"
-    }
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "render_target_path_d3d12": "rov"
+  }
 }

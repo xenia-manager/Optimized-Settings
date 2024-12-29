@@ -1,8 +1,8 @@
 {
-    "GPU": {
-        "render_target_path_d3d12": "rov"
-    },
-    "Memory": {
-        "protect_zero": false
-    }
+  "GPU": {
+    "render_target_path_d3d12": "rov"
+  },
+  "Memory": {
+    "protect_zero": false
+  }
 }

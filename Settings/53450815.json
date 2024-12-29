@@ -1,10 +1,10 @@
 {
-    "GPU": {
-        "vsync": false,
-        "framerate_limit": 0,
-        "texture_cache_memory_limit_soft": 5
-    },
-    "Memory": {
-        "scribble_heap": true
-    }
+  "GPU": {
+    "framerate_limit": 0,
+    "texture_cache_memory_limit_soft": 5,
+    "vsync": false
+  },
+  "Memory": {
+    "scribble_heap": true
+  }
 }

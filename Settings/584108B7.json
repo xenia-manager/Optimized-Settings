@@ -1,5 +1,5 @@
 {
-    "APU": {
-        "apu_max_queued_frames": 8
-    }
+  "APU": {
+    "apu_max_queued_frames": 8
+  }
 }

@@ -1,18 +1,18 @@
 {
-    "APU": {
-        "use_new_decoder": true,
-        "use_dedicated_xma_thread": false
-    },
-    "D3D12": {
-        "d3d12_readback_resolve": true
-    },
-    "GPU": {
-        "vsync": false,
-        "framerate_limit": 0,
-        "gpu_allow_invalid_fetch_constants": true,
-        "query_occlusion_fake_sample_count": -1,
-    },
-    "Storage": {
-        "mount_cache": true
-    }
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  },
+  "GPU": {
+    "framerate_limit": 0,
+    "gpu_allow_invalid_fetch_constants": true,
+    "query_occlusion_fake_sample_count": -1,
+    "vsync": false
+  },
+  "Storage": {
+    "mount_cache": true
+  }
 }
