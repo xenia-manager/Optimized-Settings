@@ -4,9 +4,9 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "query_occlusion_fake_sample_count": -1
+    "framerate_limit": 120
   },
-  "General": {
-    "controller_hotkeys": true
+  "HACKS": {
+    "ac6_ground_fix": true
   }
 }

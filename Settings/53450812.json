@@ -1,0 +1,9 @@
+{
+  "APU": {
+    "apu_max_queued_frames": 8
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "gpu": "vulkan"
+  }
+}
