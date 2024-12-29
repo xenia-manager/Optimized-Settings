@@ -4,9 +4,10 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "query_occlusion_fake_sample_count": -1
+    "clear_memory_page_state": true,
+    "framerate_limit": 120
   },
-  "General": {
-    "controller_hotkeys": true
+  "Memory": {
+    "scribble_heap": true
   }
 }

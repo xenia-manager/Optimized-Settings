@@ -4,9 +4,7 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "query_occlusion_fake_sample_count": -1
-  },
-  "General": {
-    "controller_hotkeys": true
+    "clear_memory_page_state": true,
+    "render_target_path_d3d12": "rov"
   }
 }

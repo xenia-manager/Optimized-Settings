@@ -1,14 +1,13 @@
 {
   "APU": {
-    "apu_max_queued_frames": 8,
     "use_dedicated_xma_thread": false,
     "use_new_decoder": true
   },
   "GPU": {
     "clear_memory_page_state": true,
-    "draw_resolution_scale_x": 2,
-    "draw_resolution_scale_y": 2,
-    "gpu_allow_invalid_fetch_constants": true
+    "framerate_limit": 0,
+    "query_occlusion_fake_sample_count": -1,
+    "vsync": false
   },
   "Memory": {
     "protect_zero": false
