@@ -1,30 +1,33 @@
-name: Update README Game Counter
+name: Update Table on PR Merge
+
 on:
   workflow_dispatch: # Allows manual trigger
-  workflow_run:
-    workflows: ["Update Table on PR Merge"]
-    types:
-      - completed
 jobs:
-  update-counter:
+  update-table:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
-      
+        uses: actions/checkout@v2
+
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v2
         with:
-          python-version: "3.x"
-      
-      - name: Update README Counter
-        run: python Scripts/game_counter.py
-      
+          python-version: 3.x 
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests gitpython
+
+      - name: Run update script
+        run: |
+          python Scripts/update_game_table.py
+
       - name: Check for changes
         id: check_changes
         run: |
           git diff --quiet README.md || echo "changes=true" >> $GITHUB_OUTPUT
-      
+
       - name: Commit and Push Changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
