@@ -10,6 +10,7 @@ directory_to_scan = "Settings"  # Directory to scan within the repo
 readme_file = "README.md"  # Path to the README.md file
 json_url = "https://raw.githubusercontent.com/xenia-manager/Database/refs/heads/main/Database/xbox_marketplace_games.json"  # URL to the JSON file
 
+
 # Initialize the repo
 repo = Repo(repo_path)
 
@@ -52,7 +53,8 @@ directory_path = os.path.join(repo_path, directory_to_scan)
 for root, _, files in os.walk(directory_path):
     for file in files:
         file_path = os.path.relpath(os.path.join(root, file), repo_path)
-        # Get the last commit information
+        
+        # Get the last commit information specific to the file
         commits = list(repo.iter_commits(paths=file_path, max_count=1))
         if commits:
             commit = commits[0]
