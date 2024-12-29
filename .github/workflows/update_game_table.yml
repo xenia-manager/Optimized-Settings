@@ -1,12 +1,6 @@
 name: Update Table on PR Merge
 
 on:
-  pull_request:
-    types: [closed]
-    branches:
-      - main  # Trigger the action on merges to the 'main' branch
-    # Ensure the PR is merged (not just closed)
-    if: github.event.pull_request.merged == true
   workflow_dispatch: # Allows manual trigger
 jobs:
   update-table:

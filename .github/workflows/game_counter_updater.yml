@@ -1,9 +1,10 @@
 name: Update README Game Counter
 on:
-  push:
-    paths:
-      - README.md  # Trigger when README.md is modified
   workflow_dispatch: # Allows manual trigger
+  workflow_run:
+    workflows: ["Update Table on PR Merge"]
+    types:
+      - completed
 jobs:
   update-counter:
     runs-on: ubuntu-latest
