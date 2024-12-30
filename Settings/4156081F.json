@@ -1,0 +1,9 @@
+{
+  "CPU": {
+    "disable_context_promotion": true,
+    "disassemble_functions": true
+  },
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  }
+}

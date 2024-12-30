@@ -1,12 +1,9 @@
 {
-  "CPU": {
-    "disassemble_functions": true
-  },
   "GPU": {
     "framerate_limit": 0,
     "vsync": false
   },
   "Memory": {
-    "protect_zero": false
+    "scribble_heap": true
   }
 }
