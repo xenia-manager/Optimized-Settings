@@ -1,0 +1,12 @@
+{
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "CPU": {
+    "disable_context_promotion": true
+  },
+  "Video": {
+    "internal_display_resolution": 4
+  }
+}

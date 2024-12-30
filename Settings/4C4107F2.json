@@ -1,5 +1,8 @@
 {
   "D3D12": {
     "d3d12_readback_resolve": true
+  },
+  "Memory": {
+    "scribble_heap": true
   }
 }
