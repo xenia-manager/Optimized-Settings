@@ -1,7 +1,6 @@
 {
   "APU": {
-    "use_dedicated_xma_thread": false,
-    "use_new_decoder": true
+    "use_new_decoder": false
   },
   "GPU": {
     "framerate_limit": 0,
