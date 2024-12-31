@@ -34,11 +34,12 @@ def generate_html_row(filename, last_commit, commit_link):
     icon_src = f"http://www.xboxunity.net/Resources/Lib/Icon.php?tid={name_without_ext}"
     # Retrieve the title from the lookup dictionary; default to 'Unknown Title' if not found
     title = title_lookup.get(name_without_ext, 'Unknown Title')
+    file_link = f"https://github.com/xenia-manager/Optimized-Settings/blob/main/Settings/{filename}"
     return {
         "html": (
             f"<tr>"
             f"<td><img src=\"{icon_src}\"/></td>"
-            f"<td><center><strong>{name_without_ext}</strong></center></td>"
+            f"<td><center><a href=\"{file_link}\"><strong>{name_without_ext}</strong></a></center></td>"
             f"<td><center><strong>{title}</strong></center></td>"
             f"<td><center><a href=\"{commit_link}\">{last_commit}</a></center></td>"
             f"</tr>"
@@ -63,7 +64,7 @@ for root, _, files in os.walk(directory_path):
             rows.append(generate_html_row(file, commit_date, commit_link))
 
 # Sort rows alphabetically by title
-sorted_rows = sorted(rows, key=lambda x: x["title"])
+sorted_rows = sorted(rows, key=lambda x: x["title"].lower())
 
 # Generate the new HTML table
 new_table = (
