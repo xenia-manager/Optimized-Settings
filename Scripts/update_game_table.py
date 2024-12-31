@@ -64,7 +64,7 @@ for root, _, files in os.walk(directory_path):
             rows.append(generate_html_row(file, commit_date, commit_link))
 
 # Sort rows alphabetically by title
-sorted_rows = sorted(rows, key=lambda x: x["title"])
+sorted_rows = sorted(rows, key=lambda x: x["title"].lower())
 
 # Generate the new HTML table
 new_table = (
