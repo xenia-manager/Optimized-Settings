@@ -1,0 +1,8 @@
+{
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  },
+  "GPU": {
+    "use_fuzzy_alpha_epsilon": true
+  }
+}

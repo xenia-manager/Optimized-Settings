@@ -4,6 +4,7 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "framerate_limit": 120
+    "draw_resolution_scale_x": 2,
+    "draw_resolution_scale_y": 2
   }
 }
