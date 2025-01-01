@@ -1,0 +1,8 @@
+{
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  },
+  "GPU": {
+    "gpu_allow_invalid_fetch_constants": true
+  }
+}

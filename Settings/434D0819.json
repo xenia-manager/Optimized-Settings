@@ -1,0 +1,12 @@
+{
+  "APU": {
+    "use_new_decoder": false
+  },
+  "D3D12": {
+    "d3d12_readback_resolve": true
+  },
+  "GPU": {
+    "framerate_limit": 0,
+    "vsync": false
+  }
+}

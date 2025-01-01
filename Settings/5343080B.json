@@ -6,6 +6,9 @@
   "CPU": {
     "disable_context_promotion": true
   },
+  "GPU": {
+    "framerate_limit": 120
+  },
   "Video": {
     "internal_display_resolution": 4
   }
