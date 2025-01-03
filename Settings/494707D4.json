@@ -1,6 +1,10 @@
 {
+  "D3D12": {
+    "d3d12_readback_memexport": true
+  },
   "GPU": {
     "framerate_limit": 0,
+    "query_occlusion_fake_sample_count": 700,
     "vsync": false
   }
 }
