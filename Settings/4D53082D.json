@@ -1,6 +1,9 @@
 {
-    "GPU": {
-        "vsync": false,
-        "framerate_limit": 0
-    }
+  "GPU": {
+    "framerate_limit": 0,
+    "vsync": false
+  },
+  "Kernel": {
+    "cl": "-NoStartupMovies"
+  }
 }
