@@ -1,4 +1,8 @@
 {
+  "GPU": {
+    "framerate_limit": 60,
+    "vsync": true
+  },
   "Memory": {
     "protect_zero": false
   }

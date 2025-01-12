@@ -1,4 +1,7 @@
 {
+  "CPU": {
+    "disable_context_promotion": true
+  },
   "D3D12": {
     "d3d12_readback_resolve": true
   },
@@ -6,8 +9,6 @@
     "controller_hotkeys": true
   },
   "GPU": {
-    "framerate_limit": 60,
-    "query_occlusion_fake_sample_count": -1,
-    "vsync": true
+    "clear_memory_page_state": true
   }
 }
