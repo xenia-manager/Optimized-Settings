@@ -1,6 +1,6 @@
 {
   "CPU": {
-    "break_on_unimplemented_instructions": false,
+    "break_on_unimplemented_instructions": false
   },
   "GPU": {
     "clear_memory_page_state": true,

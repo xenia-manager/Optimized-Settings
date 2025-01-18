@@ -6,6 +6,6 @@
     "readback_resolve": true
   },
   "Memory": {
-    "protect_zero": false,
+    "protect_zero": false
   }
 }
