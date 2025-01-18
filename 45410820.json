@@ -1,8 +1,0 @@
-{
-  "D3D12": {
-    "d3d12_readback_resolve": true
-  },
-  "GPU": {
-    "framerate_limit": 120
-  }
-}
