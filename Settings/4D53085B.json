@@ -1,13 +1,11 @@
 {
-  "D3D12": {
-    "d3d12_readback_resolve": true
-  },
   "General": {
     "controller_hotkeys": true
   },
   "GPU": {
     "framerate_limit": 60,
     "query_occlusion_fake_sample_count": -1,
+    "readback_resolve": true,
     "vsync": true
   }
 }

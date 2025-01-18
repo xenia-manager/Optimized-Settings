@@ -2,12 +2,10 @@
   "APU": {
     "use_new_decoder": false
   },
-  "D3D12": {
-    "d3d12_readback_memexport": true
-  },
   "GPU": {
     "framerate_limit": 0,
     "query_occlusion_fake_sample_count": 700,
+    "readback_resolve": true,
     "vsync": false
   }
 }

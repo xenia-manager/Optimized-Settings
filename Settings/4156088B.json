@@ -1,5 +1,5 @@
 {
-  "D3D12": {
-    "d3d12_readback_resolve": true
+  "GPU": {
+    "readback_resolve": true
   }
 }
