@@ -1,0 +1,9 @@
+{
+  "GPU": {
+    "query_occlusion_fake_sample_count": 0,
+    "readback_resolve": true
+  },
+  "Kernel": {
+    "cl": "-novid"
+  }
+}

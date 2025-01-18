@@ -1,0 +1,6 @@
+{
+  "GPU": {
+    "gpu_allow_invalid_fetch_constants": true
+    "readback_resolve": true
+  }
+}

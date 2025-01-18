@@ -1,0 +1,11 @@
+{
+  "CPU": {
+    "disable_context_promotion": true
+  },
+  "GPU": {
+    "readback_resolve": true
+  },
+  "Storage": {
+    "mount_cache": true
+  }
+}

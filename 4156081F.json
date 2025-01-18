@@ -1,0 +1,9 @@
+{
+  "CPU": {
+    "disable_context_promotion": true,
+    "disassemble_functions": true
+  },
+  "GPU": {
+    "readback_resolve": true
+  }
+}

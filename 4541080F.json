@@ -1,0 +1,6 @@
+{
+  "GPU": {
+    "query_occlusion_fake_sample_count": -1,
+    "readback_resolve": true
+  }
+}
