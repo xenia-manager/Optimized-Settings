@@ -2,12 +2,10 @@
   "APU": {
     "apu_max_queued_frames": 8
   },
-  "D3D12": {
-    "d3d12_readback_resolve": true
-  },
   "GPU": {
     "clear_memory_page_state": true,
     "framerate_limit": 0,
+    "readback_resolve": true,
     "vsync": false
   },
   "Storage": {

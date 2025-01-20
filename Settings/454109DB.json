@@ -3,13 +3,11 @@
     "disable_context_promotion": true,
     "disassemble_functions": true
   },
-  "D3D12": {
-    "d3d12_readback_resolve": true
-  },
   "General": {
     "controller_hotkeys": true
   },
   "GPU": {
-    "clear_memory_page_state": true
+    "clear_memory_page_state": true,
+    "readback_resolve": true
   }
 }

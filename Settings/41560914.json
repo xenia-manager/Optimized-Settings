@@ -1,11 +1,11 @@
 {
-    "D3D12": {
-        "d3d12_readback_resolve": true,
-    },
-    "General": {
-        "controller_hotkeys": true,
-    },
-    "Memory": {
-        "protect_zero": false
-    }
+  "General": {
+    "controller_hotkeys": true
+  },
+  "GPU": {
+    "readback_resolve": true
+  },
+  "Memory": {
+    "protect_zero": false
+  }
 }
