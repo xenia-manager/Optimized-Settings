@@ -1,7 +1,7 @@
 {
   "GPU": {
     "framerate_limit": 0,
-    "readback_resolve": true,
+    "query_occlusion_fake_sample_count": 352,
     "vsync": false
   }
 }

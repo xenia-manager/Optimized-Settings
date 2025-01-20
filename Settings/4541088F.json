@@ -4,6 +4,7 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "depth_float24_convert_in_pixel_shader": true
+    "depth_float24_convert_in_pixel_shader": true,
+    "clear_memory_page_state": true,
   }
 }
