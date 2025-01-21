@@ -7,9 +7,9 @@
     "controller_hotkeys": true
   },
   "GPU": {
-    "framerate_limit": 0,
-    "gpu_allow_invalid_fetch_constants": true,
-    "vsync": false
+    "clear_memory_page_state": true,
+    "framerate_limit": 120,
+    "gpu_allow_invalid_fetch_constants": true
   },
   "Storage": {
     "mount_cache": true

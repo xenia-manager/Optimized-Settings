@@ -4,6 +4,8 @@
   },
   "GPU": {
     "clear_memory_page_state": true,
+    "draw_resolution_scale_x": 1,
+    "draw_resolution_scale_y": 1,
     "gpu": "vulkan"
   }
 }
