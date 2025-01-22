@@ -1,5 +1,6 @@
 {
   "APU": {
+    "apu_max_queued_frames": 4,
     "use_dedicated_xma_thread": false,
     "use_new_decoder": true
   },
