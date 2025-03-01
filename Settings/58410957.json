@@ -1,0 +1,8 @@
+{
+  "Memory": {
+    "protect_zero": false
+  },
+  "Storage": {
+    "mount_cache": true
+  }
+}

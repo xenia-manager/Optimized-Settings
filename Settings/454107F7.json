@@ -1,4 +1,7 @@
 {
+  "GPU": {
+    "gpu": "vulkan",
+  },
   "Video": {
     "internal_display_resolution": 16
   }
