@@ -1,0 +1,9 @@
+{
+  "CPU": {
+    "disable_context_promotion": true
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "readback_resolve": true
+  }
+}

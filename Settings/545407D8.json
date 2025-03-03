@@ -2,9 +2,5 @@
   "APU": {
     "use_dedicated_xma_thread": false,
     "use_new_decoder": true
-  },
-  "GPU": {
-    "framerate_limit": 0,
-    "vsync": false
   }
 }

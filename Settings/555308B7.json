@@ -1,6 +1,7 @@
 {
   "GPU": {
     "clear_memory_page_state": true,
-    "framerate_limit": 120
+    "framerate_limit": 0,
+    "vsync": false
   }
 }
