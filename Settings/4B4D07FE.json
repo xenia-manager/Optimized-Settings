@@ -4,6 +4,6 @@
     "disable_context_promotion": true
   },
   "GPU": {
-    "framerate_limit": 120,
+    "framerate_limit": 120
   }
 }
