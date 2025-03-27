@@ -7,6 +7,8 @@
   },
   "GPU": {
     "clear_memory_page_state": true,
-    "readback_resolve": true
+    "framerate_limit": 0,
+    "readback_resolve": true,
+    "vsync": false
   }
 }
