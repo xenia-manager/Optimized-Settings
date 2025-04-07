@@ -1,8 +1,7 @@
 {
   "GPU": {
     "clear_memory_page_state": true,
-    "framerate_limit": 120,
-    "query_occlusion_fake_sample_count": 0
+    "query_occlusion_fake_sample_count": 1
   },
   "Memory": {
     "scribble_heap": true
