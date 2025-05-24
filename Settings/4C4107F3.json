@@ -1,6 +1,6 @@
 {
   "GPU": {
-    "readback_memexport": true
+    "readback_memexport": true,
     "readback_resolve": true
   }
 }
