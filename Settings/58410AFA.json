@@ -5,6 +5,6 @@
   "GPU": {
     "draw_resolution_scale_x": 2,
     "draw_resolution_scale_y": 2,
-    "query_occlusion_fake_sample_count": 0
+    "query_occlusion_sample_lower_threshold": -1
   }
 }

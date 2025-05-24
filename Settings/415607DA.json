@@ -5,9 +5,7 @@
   },
   "GPU": {
     "clear_memory_page_state": true,
-    "framerate_limit": 0,
-    "query_occlusion_sample_lower_threshold": -1,
-    "vsync": false
+    "query_occlusion_sample_lower_threshold": -1
   },
   "Memory": {
     "protect_zero": false
