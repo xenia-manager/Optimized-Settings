@@ -6,7 +6,7 @@
   "GPU": {
     "framerate_limit": 0,
     "gpu_allow_invalid_fetch_constants": true,
-    "query_occlusion_fake_sample_count": -1,
+    "query_occlusion_sample_lower_threshold": -1,
     "readback_resolve": true,
     "vsync": false
   },
