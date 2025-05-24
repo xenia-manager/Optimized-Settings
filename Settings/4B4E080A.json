@@ -4,6 +4,6 @@
         "use_dedicated_xma_thread": false
     },
     "GPU": {
-        "query_occlusion_fake_sample_count": -1,
+        "query_occlusion_fake_sample_count": -1
     }
 }

@@ -1,9 +1,9 @@
 {
-    "CPU": {
-        "break_on_unimplemented_instructions": false
-    },
-    "GPU": {
-        "clear_memory_page_state": true,
-        "query_occlusion_fake_sample_count": 0
-    }
+  "CPU": {
+    "break_on_unimplemented_instructions": false
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "query_occlusion_fake_sample_count": 0
+  }
 }
