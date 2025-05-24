@@ -1,0 +1,8 @@
+{
+  "General": {
+    "time_scalar": 2
+  },
+  "Kernel": {
+    "cl": "-nostartupmovies"
+  }
+}

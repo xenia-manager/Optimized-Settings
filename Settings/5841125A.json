@@ -4,6 +4,7 @@
   },
   "GPU": {
     "clear_memory_page_state": true,
-    "query_occlusion_fake_sample_count": 0
+    "query_occlusion_sample_lower_threshold": 0,
+    "query_occlusion_sample_upper_threshold": 0
   }
 }

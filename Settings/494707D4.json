@@ -4,7 +4,8 @@
   },
   "GPU": {
     "framerate_limit": 0,
-    "query_occlusion_fake_sample_count": 700,
+    "query_occlusion_sample_lower_threshold": 700,
+    "query_occlusion_sample_upper_threshold": 700,
     "readback_resolve": true,
     "vsync": false
   }
