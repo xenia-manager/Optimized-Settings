@@ -1,0 +1,10 @@
+{
+  "APU": {
+    "apu_max_queued_frames": 8
+  },
+  "GPU": {
+    "framerate_limit": 0,
+    "query_occlusion_sample_lower_threshold": -1,
+    "vsync": false
+  }
+}

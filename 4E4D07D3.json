@@ -1,0 +1,6 @@
+{
+  "GPU": {
+    "clear_memory_page_state": true,
+    "use_fuzzy_alpha_epsilon": true
+  }
+}

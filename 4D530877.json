@@ -1,0 +1,12 @@
+{
+  "GPU": {
+    "vsync": true,
+    "framerate_limit": 60
+  },
+  "Memory": {
+    "protect_zero": false
+  },
+  "Storage": {
+    "mount_cache": false
+  }
+}
