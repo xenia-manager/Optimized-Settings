@@ -4,7 +4,6 @@
     "use_new_decoder": true
   },
   "GPU": {
-    "framerate_limit": 120,
-    "vsync": false
+    "clear_memory_page_state": true
   }
 }
