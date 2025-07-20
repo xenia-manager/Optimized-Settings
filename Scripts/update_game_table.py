@@ -9,10 +9,6 @@ from git import Repo  # Ensure GitPython is installed
 repo_path = os.getcwd()  # Path to the repository
 directory_to_scan = "Settings"
 readme_file = "README.md"
-json_url = (
-    "https://raw.githubusercontent.com/xenia-manager/Database/"
-    "refs/heads/main/Database/xbox_marketplace_games.json"
-)
 
 # ─── Logging Setup ─────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -26,6 +22,15 @@ logger = logging.getLogger("update_game_table")
 try:
     repo = Repo(repo_path)
     logger.info("Git repo initialized at %s", repo_path)
+    
+    # Debug: Show current HEAD and branch info
+    logger.info("Current HEAD: %s", repo.head.commit.hexsha)
+    logger.info("Active branch: %s", repo.active_branch.name if repo.active_branch else "detached")
+    
+    # Check if we have full history
+    total_commits = list(repo.iter_commits())
+    logger.info("Total commits accessible: %d", len(total_commits))
+    
 except Exception as e:
     logger.error("Failed to initialize Git repo: %s", e)
     raise
@@ -104,16 +109,38 @@ logger.info("Scanning directory: %s", directory_path)
 for root, _, files in os.walk(directory_path):
     for file in files:
         rel_path = os.path.relpath(os.path.join(root, file), repo_path)
-        commits = list(repo.iter_commits(paths=rel_path, max_count=1))
-        if not commits:
-            logger.debug("No commits found for %s", rel_path)
+        logger.debug("Processing file: %s", rel_path)
+        
+        try:
+            # Get commits for this specific file path
+            commits = list(repo.iter_commits(paths=rel_path, max_count=10))
+            logger.debug("Found %d commits for %s", len(commits), rel_path)
+            
+            if not commits:
+                logger.warning("No commits found for %s", rel_path)
+                # Fallback: use current date and HEAD commit
+                commit = repo.head.commit
+                date_str = commit.committed_datetime.strftime("%d/%m/%Y")
+                link = f"{repo.remotes.origin.url.rstrip('.git')}/commit/{commit.hexsha}"
+                logger.info("Using HEAD commit for %s: %s", rel_path, date_str)
+            else:
+                commit = commits[0]  # Most recent commit
+                date_str = commit.committed_datetime.strftime("%d/%m/%Y")
+                link = f"{repo.remotes.origin.url.rstrip('.git')}/commit/{commit.hexsha}"
+                logger.debug("Last modified %s on %s (commit: %s)", rel_path, date_str, commit.hexsha[:8])
+                
+                # Debug: Show commit history for first few files
+                if len(rows) < 3:
+                    logger.info("Commit history for %s:", rel_path)
+                    for i, c in enumerate(commits[:3]):
+                        logger.info("  %d: %s - %s", i+1, c.committed_datetime.strftime("%d/%m/%Y"), c.hexsha[:8])
+            
+            rows.append(generate_html_row(file, date_str, link))
+            
+        except Exception as e:
+            logger.error("Error processing %s: %s", rel_path, e)
             continue
-        commit = commits[0]
-        date_str = commit.committed_datetime.strftime("%d/%m/%Y")
-        link = (
-            f"{repo.remotes.origin.url.rstrip('.git')}/commit/{commit.hexsha}"
-        )
-        rows.append(generate_html_row(file, date_str, link))
+
 logger.info("Collected %d rows", len(rows))
 
 # ─── Sort and Build Table ─────────────────────────────────────────────────────
