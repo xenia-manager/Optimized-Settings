@@ -1,3 +1,3 @@
-[submodule "Database"]
-	path = Database
-	url = https://github.com/xenia-manager/Database.git
+[submodule "x360db"]
+	path = x360db
+	url = https://github.com/xenia-manager/x360db
