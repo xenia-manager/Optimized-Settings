@@ -30,14 +30,17 @@ except Exception as e:
     logger.error("Failed to initialize Git repo: %s", e)
     raise
 
-# ─── Fetch and Parse JSON ──────────────────────────────────────────────────────
-logger.info("Fetching JSON data from %s", json_url)
-resp = requests.get(json_url)
-if resp.status_code != 200:
-    logger.error("Failed to fetch JSON (status %s)", resp.status_code)
-    resp.raise_for_status()
-games_data = resp.json()
-logger.info("Fetched %d game entries", len(games_data))
+# ─── Load JSON from Local File ─────────────────────────────────────────────────
+local_json_path = os.path.join(repo_path, "x360db", "games.json")
+
+logger.info("Loading JSON data from local file: %s", local_json_path)
+try:
+    with open(local_json_path, "r", encoding="utf-8") as f:
+        games_data = json.load(f)
+    logger.info("Loaded %d game entries from local file", len(games_data))
+except Exception as e:
+    logger.error("Failed to load local JSON file: %s", e)
+    raise
 
 # ─── Build Title Lookup ────────────────────────────────────────────────────────
 title_lookup = {}
