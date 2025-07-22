@@ -1,0 +1,9 @@
+{
+  "GPU": {
+    "framerate_limit": 120,
+    "readback_resolve": true
+  },
+  "General": {
+    "controller_hotkeys": true
+  }
+}

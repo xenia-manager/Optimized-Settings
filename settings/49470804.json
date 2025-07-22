@@ -1,0 +1,9 @@
+{
+  "APU": {
+    "use_new_decoder": false
+  },
+  "GPU": {
+    "framerate_limit": 0,
+    "vsync": false
+  }
+}

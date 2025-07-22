@@ -1,0 +1,17 @@
+{
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "General": {
+    "controller_hotkeys": true
+  },
+  "GPU": {
+    "clear_memory_page_state": true,
+    "framerate_limit": 120,
+    "gpu_allow_invalid_fetch_constants": true
+  },
+  "Storage": {
+    "mount_cache": true
+  }
+}

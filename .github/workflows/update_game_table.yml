@@ -1,4 +1,5 @@
-name: Update Optimized Game Table
+name: Update Table of optimized games
+description: This workflow updates the table containing all of the games with optimized settings in the README file and updates the game counter
 
 on:
   workflow_dispatch: # Allows manual trigger
@@ -6,15 +7,16 @@ on:
     branches:
       - main
     paths:
-      - 'Settings/**'
+      - 'settings/**'
+
 jobs:
   update-table:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Updated to v4
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history for all files and branches
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Initialize and update submodules
@@ -22,7 +24,7 @@ jobs:
           git submodule update --init --recursive
 
       - name: Set up Python
-        uses: actions/setup-python@v4  # Updated to v4
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
@@ -31,9 +33,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests gitpython
 
-      - name: Run update script
+      - name: Run update game table script
         run: |
-          python Scripts/update_game_table.py
+          python scripts/update_game_table.py
+
+      - name: Update README Counter
+        run: |
+          python scripts/game_counter.py
 
       - name: Check for changes
         id: check_changes
@@ -46,7 +52,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update game counter"
+          git commit -m "Update game table and counter"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

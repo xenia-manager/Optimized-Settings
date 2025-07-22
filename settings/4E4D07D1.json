@@ -1,0 +1,12 @@
+{
+  "APU": {
+    "use_dedicated_xma_thread": false,
+    "use_new_decoder": true
+  },
+  "GPU": {
+    "framerate_limit": 120
+  },
+  "HACKS": {
+    "ac6_ground_fix": true
+  }
+}

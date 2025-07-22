@@ -1,0 +1,8 @@
+{
+  "CPU": {
+    "disable_context_promotion": true
+  },
+  "Memory": {
+    "scribble_heap": true
+  }
+}

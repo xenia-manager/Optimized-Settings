@@ -1,0 +1,8 @@
+{
+  "General": {
+    "launch_module": "SP.xex"
+  },
+  "GPU": {
+    "framerate_limit": 120
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "GPU": {
+    "clear_memory_page_state": true,
+    "framerate_limit": 0,
+    "vsync": false
+  },
+  "Kernel": {
+    "cl": "-skipintro"
+  },
+  "Memory": {
+    "scribble_heap": true
+  }
+}

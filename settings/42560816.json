@@ -1,0 +1,5 @@
+{
+  "GPU": {
+    "query_occlusion_sample_lower_threshold": -1
+  }
+}

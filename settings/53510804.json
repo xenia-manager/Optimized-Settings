@@ -1,0 +1,11 @@
+{
+  "GPU": {
+    "readback_resolve": true
+  },
+  "General": {
+    "controller_hotkeys": true
+  },
+  "Memory": {
+    "protect_zero": false
+  }
+}

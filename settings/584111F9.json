@@ -1,0 +1,5 @@
+{
+  "CPU": {
+    "break_on_unimplemented_instructions": false
+  }
+}
