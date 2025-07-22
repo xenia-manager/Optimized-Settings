@@ -6,7 +6,6 @@
     "controller_hotkeys": true
   },
   "GPU": {
-    "clear_memory_page_state": true,
     "framerate_limit": 0,
     "readback_resolve": true,
     "vsync": false

@@ -3,13 +3,9 @@
     "use_dedicated_xma_thread": false,
     "use_new_decoder": true
   },
-  "General": {
-    "controller_hotkeys": true
-  },
   "GPU": {
-    "framerate_limit": 0,
-    "readback_resolve": true,
-    "vsync": false
+    "clear_memory_page_state": true,
+    "query_occlusion_sample_lower_threshold": -1
   },
   "Memory": {
     "protect_zero": false
